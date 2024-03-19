@@ -1,0 +1,35 @@
+body {
+    background-image: url("../media/puzzlesbackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    background-color: #605D58;
+    opacity: .8;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 45%;
+    text-align: center;
+    font-size: 40px;
+    color: #C2B3AC;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+  
+section {
+    background-color: #605D58;
+    max-width: 50%;
+    color: #C2B3AC;
+    opacity: .8;
+}
+
+a {
+    color: #C2B3AC;
+    padding: 14px 16px;
+}

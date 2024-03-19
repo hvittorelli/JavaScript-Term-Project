@@ -1,0 +1,35 @@
+body {
+    background-image: url("../media/sequencebackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    background-color: #925E4A;
+    opacity: .8;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 45%;
+    text-align: center;
+    font-size: 40px;
+    color: #CCC3B4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+  
+section {
+    background-color: #925E4A;
+    max-width: 50%;
+    color: #CCC3B4;
+    opacity: .8;
+}
+
+a {
+    color: #CCC3B4;
+    padding: 14px 16px;
+}

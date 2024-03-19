@@ -1,0 +1,35 @@
+body {
+    background-image: url("../media/dashbackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    background-color: #5D5D5D;
+    opacity: .8;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 45%;
+    text-align: center;
+    font-size: 40px;
+    color: #CDCDCD;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+  
+section {
+    background-color: #5D5D5D;
+    max-width: 50%;
+    color: #CDCDCD;
+    opacity: .8;
+}
+
+a {
+    color: #D2C4BB;
+    padding: 14px 16px;
+}

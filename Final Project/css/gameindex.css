@@ -1,0 +1,57 @@
+body {
+    background-image: url("../media/potterGamesBackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navbar {
+    background-color: #5E4A3B;
+    opacity: .8;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+    text-align: center;
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 30px;
+}
+
+#navbar a {
+    color: #D2C4BB;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+}
+
+section{
+    display: none;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#navbar:hover + section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar a:hover {
+    background-color: #8C6C5E;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: url('../media/wand.cur'), auto;
+}
+#gameInfo{
+    padding: 20px;
+    background-color:#5E4A3B;
+    font-size:1.5em;
+    opacity:.9;
+    color: #D2C4BB; 
+    border: solid white;   
+}
+
