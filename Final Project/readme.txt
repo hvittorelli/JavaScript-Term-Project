@@ -9,8 +9,20 @@ Welcome to the Wizards Arcade website! This website showcases three exciting gam
 ## Games
 -------------------------------------------
 1. **Broomstick Dash**: Take flight on your enchanted broomstick and navigate through challenging obstacles using the arrow keys on your keyboard.
+------ Game Instructions: 
+            Use the arrow keys on your keyboard to control the movement of the broomstick. Avoid obstacles by maneuvering your broomstick up or down.
+------ Future Release:
+            Allow the user to save high score and add different level of difficulty. 
+
+
 2. **Sorcery Sequence**: Test your magical memory and reflexes as you match colors in sequence in this twist on the classic game 'Simon Says'.
+
+
 3. **Potter Puzzles**: Piece together images of beloved characters, magical creatures, and iconic locations in this jigsaw puzzle game with varying levels of difficulty and timer-based challenges.
+------ Game Instructions: 
+            Click Start and use your mouse to drag puzzle pieces across the game board. Click on a puzzle piece, hold down the mouse button, and drag it to the desired location on the board.
+------ Future Release:
+            Inlcude a timer, additional puzzle images and the option to do a 16 or 24 piece puzzle. 
 
 -------------------------------------------
 ## File Directory
@@ -26,6 +38,8 @@ Final Project/broomstickdash.html
 Final Project/css/broomstickdash.css
 Final Project/js/broomstickdash.js
 Final Project/media/dashbackground.jpg
+Final Project/media/gamebackground.jpg
+Final Project/media/broom2.png
 
 Final Project/sorcerysequence.html
 Final Project/css/sorcerysequence.css
@@ -36,6 +50,7 @@ Final Project/potterpuzzles.html
 Final Project/css/potterpuzzles.css
 Final Project/js/potterpuzzles.js
 Final Project/media/puzzlesbackground.jpg
+Final Project/media/hogwartsexpress.jpg
 
 -------------------------------------------
 ## Copyright and Reproduction Information

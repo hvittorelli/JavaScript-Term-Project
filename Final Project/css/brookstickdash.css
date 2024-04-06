@@ -1,35 +1,61 @@
 body {
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     background-image: url("../media/dashbackground.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Rubik Gemstones", system-ui;
+}
+
+section {
+    background-color: #5D5D5D;
+    max-width: 80%;
+    color: #CDCDCD;
+    opacity: .8;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center; 
+}
+
+canvas {
+    display: block;
+    border: 10px solid gray;
+    max-width: 100%; 
+    height: auto; 
 }
 
 h1 {
+    position: fixed;
+    top: 0;
+    padding: 10px;
     background-color: #5D5D5D;
     opacity: .8;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 45%;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color: #CDCDCD;
+    border-radius: 10px;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
+.button-container {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
 }
-  
-section {
+
+#playAgain {
     background-color: #5D5D5D;
-    max-width: 50%;
+    border: solid black;
     color: #CDCDCD;
-    opacity: .8;
-}
-
-a {
-    color: #D2C4BB;
-    padding: 14px 16px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: "Rubik Gemstones", system-ui;
 }

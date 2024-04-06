@@ -1,30 +1,33 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="css/brookstickdash.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap" rel="stylesheet">
 <title>CIT190 Broomstick Dash</title>
 </head>
-<body>
+<body onload="startGame()">
     <h1>Broomstick Dash</h1>
-    <div class="container">
-        <section>
-            <h3>Take flight on your enchanted broomstick and navigate through challenging obstacles using the arrow keys on your keyboard.</h3>
-            <h4>Controls:</h4>
-            <p>Use the arrow keys on your keyboard to control the movement of the broomstick. Avoid obstacles by maneuvering your broomstick up or down.
-            <li>Up Arrow: Move the broomstick upward</li>
-            <li>Down Arrow: Move the broomstick downward</li></p>
-            <h4>Gameplay:</h4>
-            <p>The game starts with your broomstick positioned at the bottom of the screen.
-            Obstacles will appear randomly on the screen.
-            Fly your broomstick through gaps and openings in the obstacles to continue flying.
-            The game ends if your broomstick collides with an obstacle or the edge of the screen.</p>
-            <a id = "home" href="gamesindex.html">Back to Home</a>
-        </section>
+    <div class="button-container">
+        <button id="playAgain" onclick="location=URL">Play Again</button>
     </div>
-
-<script src="js/broomstickdash.js"></script>
+    <section>
+        <h3>Take flight on your enchanted broomstick and navigate through challenging obstacles using the arrow keys on your keyboard.</h3>
+        <h4>Controls:</h4>
+        <p>Use the arrow keys on your keyboard to control the movement of the broomstick. Avoid obstacles by maneuvering your broomstick up or down.
+        <li>Up Arrow: Move the broomstick upward</li>
+        <li>Down Arrow: Move the broomstick downward</li>
+        <li>Right Arrow: Speed up the broomstick </li>
+        <li>Left Arrow: Slow down the broomstick</li></p>
+        <h4>Gameplay:</h4>
+        <p>The game starts with your broomstick positioned at the bottom of the screen.
+        Obstacles will appear randomly on the screen.
+        Fly your broomstick through gaps and openings in the obstacles to continue flying.
+        The game ends if your broomstick collides with an obstacle or the edge of the screen.</p>
+        <span style="margin-right: 10px;"><a id="home" href="gamesindex.html">Back to Home</a></span>
+        <span><a id="readme.txt" href="readme.txt">Read Me</a></span>
+    </section>
+    <script src="js/broomstickdash.js"></script>
 </body>
 </html>

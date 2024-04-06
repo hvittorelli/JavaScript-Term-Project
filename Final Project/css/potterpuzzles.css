@@ -17,16 +17,68 @@ h1{
     color: #C2B3AC;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
+#container{
+    width: 850px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #605D58;
+}
+#pieceContainer{
+    width: 408px;
+    height: 408px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    line-height: 400px;
+    position: relative;
+}
+#puzzleContainer{
+    width: 408px;
+    height: 408px;
+    border: 1px solid black;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul button{
+    width: 100px;
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
 }
   
 section {
     background-color: #605D58;
-    max-width: 50%;
+    max-width: 75%;
     color: #C2B3AC;
     opacity: .8;
+    margin: 0 auto; 
+    padding: 20px; 
+    text-align: center;
+}
+.draggablePiece {
+    cursor: pointer;
+}
+#btnReset{
+    display: none
+}
+.piece{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+    background-image: url("../media/hogwartsexpress.jpg");
+    background-repeat: no-repeat;
+
 }
 
 a {
